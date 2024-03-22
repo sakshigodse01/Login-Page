@@ -1,2 +1,3 @@
 # Login-Page
-An example of basic Login page 
+An example of basic responsive Login and register page 
+
