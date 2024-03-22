@@ -61,7 +61,7 @@ body{
 
 .main-reg{
     width: 40%;
-    height: 600px;
+    height: 550px;
     border: none;
     outline: none;
     border-radius: 100px;
@@ -72,3 +72,74 @@ body{
 .main-reg:hover{ 
     box-shadow: 10px 20px 30px black;
 }
+
+@media screen and (max-width: 480px) {
+    .main{
+        width: 20rem;
+        height: 400px;
+        border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 10px 20px 30px rgba(245, 183, 142, 0.925);
+    background: linear-gradient(rgb(255, 112, 112), rgb(248, 248, 104), rgb(114, 247, 114));
+    transition: all .5s ease-in-out;
+    padding: 12px;
+    }
+
+    .login{
+        text-align: center;
+        margin: 10% 18%;
+    }
+
+    .login h1{
+        font-size: 35px;
+    }
+
+    .login input, .signup input {
+        margin: 30px auto;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .login button, .signup button {
+        margin-left: 0%;
+        width: 50%;
+        height: 50px;
+        font-size: 22px;
+        color: black;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 50px;
+        box-shadow: 5px 10px 20px black;
+        margin-bottom: 15px;
+        margin-top: -12px;
+    }
+    .login p, .signup p {
+        font-size: 14px;
+    }
+
+    .main-reg {
+        width: 80%;
+        height: 470px;
+        border: none;
+        outline: none;
+        border-radius: 100px;
+        box-shadow: 10px 20px 30px rgba(245, 183, 142, 0.925);
+        background: linear-gradient(rgb(255, 112, 112), rgb(248, 248, 104), rgb(114, 247, 114));
+        transition: all .5s ease-in-out;
+    }
+
+    .signup{
+        text-align: center;
+    margin: 10% 20%;
+    }
+
+    .signup h1 {
+        font-size: 29px;
+    }
+
+    .main:hover, .main-reg:hover{
+        box-shadow: 10px 20px 30px black;
+    }
+}
+
