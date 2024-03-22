@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    width: 40%;
+    height: 500px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 10px 20px 30px rgba(245, 183, 142, 0.925);
+    background:linear-gradient(rgb(255, 112, 112),rgb(248, 248, 104),rgb(114, 247, 114));  
+    transition: all .5s ease-in-out; 
+}
+
+.main:hover{
+    box-shadow: 10px 20px 30px black;
+}
+
+.login, .signup{
+    text-align: center;
+    margin: 10% 10%;
+}
+
+.login h1,.signup h1{
+    font-size: 50px;
+}
+
+.login input, .signup input{
+    margin:30px auto;
+    border-radius: 10px;
+}
+
+.login button, .signup button{
+    margin-left: 5%;
+    width: 50%;
+    height: 50px;
+    font-size: 25px;
+    color: black;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    box-shadow: 5px 10px 20px black;
+    margin-bottom: 30px;
+}
+
+.login button:hover, .signup button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8); 
+    box-shadow: 5   px 10px 20px white;
+}
+
+.login p, .signup p{
+    font-size: 20px;
+}
+
+.main-reg{
+    width: 40%;
+    height: 600px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 10px 20px 30px rgba(245, 183, 142, 0.925);
+    background:linear-gradient(rgb(255, 112, 112),rgb(248, 248, 104),rgb(114, 247, 114));
+    transition: all .5s ease-in-out;
+}
+.main-reg:hover{ 
+    box-shadow: 10px 20px 30px black;
+}
